@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native'
 import styles from "./styles"
 
 const CardHeader = (props) => {
+
     return (
         <View style={styles.container}>
             <View style={styles.imageContainer}>

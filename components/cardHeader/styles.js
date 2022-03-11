@@ -13,9 +13,8 @@ const styles = StyleSheet.create({
         
     },
     name: {
-        color: "blue",
-        fontSize: 20,
-        fontFamily: "Times New Roman",
+        color: "white",
+        fontSize: 30,
         fontWeight: "bold",
     }
 })
