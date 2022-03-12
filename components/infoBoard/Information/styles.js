@@ -7,13 +7,9 @@ const styles = StyleSheet.create({
         width: "100%",
     },
     textContainer: {
-        backgroundColor: "blue",
         marginTop: "10%",
         width: "90%",
     },
-    entryText: {
-        fontSize: 12,
-    }
 });
 
 export default styles;
