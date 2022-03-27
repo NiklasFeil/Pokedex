@@ -8,9 +8,30 @@ const AboutSection = (props) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.entryText}>
-                {entryTextContent}
-            </Text>
+            <View style={styles.entryTextContainer}>
+                <Text style={styles.entryText}>
+                    {entryTextContent}
+                </Text>
+            </View>
+            <View style={styles.physiqueContainer}>
+                <View style={styles.heightContainer}>
+                    <Text style={styles.heightTitleText}>
+                        {/*In seperaten Container packen*/}
+                    </Text>
+                    <Text style={styles.heightText}>
+
+                    </Text>
+                </View>
+                <View style={styles.weightContainer}>
+                    <Text style={styles.weightTitleText}>
+
+                    </Text>
+                    <Text style={styles.weightText}>
+
+                    </Text>
+                </View>
+            </View>
+            
         </View>
     );
 };
