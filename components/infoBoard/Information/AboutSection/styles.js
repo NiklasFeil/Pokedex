@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         
     },
     entryTextContainer: {
-        backgroundColor: "red",
+        
     }, 
     entryText: {
         fontSize: 12,
@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
     },
     heightContainer: {
         paddingVertical: 15,
-        backgroundColor: "red",
     },
     heightTitleText: {
         paddingBottom: 15,
